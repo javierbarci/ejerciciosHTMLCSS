@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="es" lang="es">
+<head>
+	<title lang="es">Formulario de Registro en Campeonato</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+</head>
+<body>
+<form action="Ejercicio16D-b.htm" >
+<h1>Formulario de Registro en Campeonato</h1>
+
+<table cellpadding="5"  width="100%" >
+<tr valign="top">	
+	<td style="width:33%;" >
+		<fieldset>
+			<legend>Selección de carrera:</legend>
+			<select name="carrera" tabindex="1">
+				<option value=""> -- Selecciona Carrera -- </option>
+				<option value="10km">10 Km</option>
+				<option value="5km">5 Km</option>
+				<option value="maraton">Maratón</option>
+				<option value="3km">3 Km</option>
+			</select>
+		</fieldset>
+		
+	</td>
+	<td style="width:33%;">
+		<fieldset>
+			<legend>Clase de carrera:</legend>
+			<select name="clase" size="3"  tabindex="2">
+				<option value="abierto">Abierto (21+)</option>
+				<option value="maestros">Maestro (30+)</option>
+				<option value="veteranos">Veteranos (40+)</option>
+				<option value="jovenes">Jóvenes (16-20)</option>
+				<option value="novatos">Novatos (12-15)</option>
+			</select>
+		</fieldset>
+		
+	</td>
+	<td style="width:33%;">
+		<fieldset>
+			<legend>Competición:</legend>
+				<input 	type="radio" 
+						name="competicion"
+						id="fondo"
+						value="fondo" 
+						tabindex="3" 
+						checked="checked" /> 
+				<label for="fondo">Fondo </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="competicion" 
+						value="marcha" 
+						tabindex="4" /> Marcha </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="competicion" 
+						value="silla" 
+						tabindex="5"/> Silla de Ruedas </label><br/>
+		</fieldset>
+		
+	</td>
+</tr>
+<tr valign="top">
+	<td>
+		<fieldset>
+			<legend>Medio de Transporte:</legend>
+				<label>
+				<input 	type="checkbox" 
+						name="avion" 
+						value="si" 
+						tabindex="6"/> Avión </label><br/>
+				<label>
+				<input 	type="checkbox" 
+						name="barco" 
+						value="si" 
+						tabindex="7"/> Barco </label><br/>
+				<label>
+				<input 	type="checkbox" 
+						name="tren" 
+						value="si" 
+						tabindex="8"/> Tren </label><br/>
+				<label>
+				<input 	type="checkbox" 
+						name="autobus" 
+						value="si" 
+						tabindex="9"/> Autobús </label><br/>
+				<label>
+				<input 	type="checkbox" 
+						name="coche" 
+						value="si" 
+						tabindex="10"/> Vehículo Propio </label><br/>
+		</fieldset>
+	</td>
+	<td>
+		<fieldset>
+			<legend>Modo de Pago:</legend>
+				<label>
+				<input 	type="radio" 
+						name="pago" 
+						value="efectivo" 
+						tabindex="11" 
+						checked="checked" /> Efectivo </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="pago" 
+						value="giro" 
+						tabindex="12" /> Giro Postal </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="pago" 
+						value="cheque" 
+						tabindex="13" /> Cheque </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="pago" 
+						value="tarjeta" 
+						tabindex="14" /> Tarjeta de Crédito </label><br/>
+		</fieldset>
+	</td>
+	<td>
+		<fieldset>
+			<legend>Tipo de Tarjeta:</legend>
+				<label>
+				<input 	type="radio" 
+						name="tipotarjeta" 
+						value="visa" 
+						tabindex="15" /> VISA </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="tipotarjeta" 
+						value="american" 
+						tabindex="16" /> American Express </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="tipotarjeta" 
+						value="4B" 
+						tabindex="17" /> 4B </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="tipotarjeta" 
+						value="servired" 
+						tabindex="18" /> Servired </label><br/>
+				<label>
+				<input 	type="radio" 
+						name="tipotarjeta" 
+						value="red6000" 
+						tabindex="19" /> Red 6000 </label><br/>
+		</fieldset>
+	</td>
+</tr>
+<tr>
+	<td colspan="3" align="center">
+		<hr />
+		<input type="submit" value="Enviar Datos" tabindex="20" /> 
+		<input type="reset" value="Limpiar" tabindex="21"/>
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Ejercicio 3B-3 -->
+<!DOCTYPE biblioteca [
+	<!ELEMENT biblioteca (libro+)>
+	<!ELEMENT libro (titulo, isbn, autor*, paginas, precio, preciooferta?, editorial)>
+	<!ELEMENT autor (nombre, apellido)>
+	<!ELEMENT titulo (#PCDATA)>
+	<!ELEMENT isbn (#PCDATA)>
+	<!ELEMENT paginas (#PCDATA)>
+	<!ELEMENT precio (#PCDATA)>
+	<!ELEMENT preciooferta (#PCDATA)>
+	<!ELEMENT editorial (#PCDATA)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT apellido (#PCDATA)>
+]>
+<biblioteca>
+	<libro>
+		<titulo>Manual imprescindible de C/C++</titulo>
+		<isbn>112233445566778899</isbn>
+		<autor>
+			<nombre>Miguel Ángel</nombre>
+			<apellido>González Ces</apellido>
+		</autor>
+		<autor>
+			<nombre>Ángel</nombre>
+			<apellido>Ces</apellido>
+		</autor>
+		<autor>
+			<nombre>Miguel</nombre>
+			<apellido>Sanz</apellido>
+		</autor>
+		<paginas>416</paginas>
+		<precio>25 &#8364;</precio>
+		<editorial>Anaya Multimedia</editorial>
+	</libro>
+	<libro>
+		<titulo>Protocolo TCP/IP</titulo>
+		<isbn>112233445566779988</isbn>
+		<autor>
+			<nombre>Neil</nombre>
+			<apellido>Anderson</apellido>
+		</autor>
+		<paginas>544</paginas>
+		<precio>30 €</precio>
+		<preciooferta>20 €</preciooferta>
+		<editorial>Anaya Multimedia</editorial>
+	</libro>
+</biblioteca>

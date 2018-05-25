@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Ejercicio 1C-1 -->
+<biblioteca>
+	<libro>
+		<titulo>Manual imprescindible de C/C++</titulo>
+		<isbn>112233445566778899</isbn>
+		<autor>
+			<nombre>Miguel Ángel</nombre>
+			<apellido>González Ces</apellido>
+		</autor>
+		<paginas>416</paginas>
+		<precio>25 &#8364;</precio>
+		<editorial>Anaya Multimedia</editorial>
+	</libro>
+	<libro>
+		<titulo>Protocolo TCP/IP</titulo>
+		<isbn>112233445566779988</isbn>
+		<autor>
+			<nombre>Neil</nombre>
+			<apellido>Anderson</apellido>
+		</autor>
+		<paginas>544</paginas>
+		<precio>30 €</precio>
+		<editorial>Anaya Multimedia</editorial>
+	</libro>
+</biblioteca>
+
+
+
+
+
+

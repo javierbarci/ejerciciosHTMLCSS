@@ -1,0 +1,92 @@
+body {font-family:arial;
+	background-image:url(images/ojo.jpg);
+}
+	
+h1,h2 {
+		font-variant:small-caps; 
+		color:#556975;
+		letter-spacing:5px;
+		text-align:center;
+	}
+	
+	
+h1 {font-size: 2em;
+	font-weight:bold;}
+h2 {font-size: 1em; }
+	 
+#titulo {
+		width: auto;
+		background-color:#FFFFDD;
+		border-width:medium;
+		border-style: solid;
+		border-color:#000;
+		text-align:center;
+	
+}
+#caja1 {
+	background-color:rgba(249,250,226,0.85);
+	width:25%;
+	border-style: solid;
+	border-width:thin;
+	text-align:right
+}
+	
+#caja2 {
+	background-color:rgba(225,247,140,0.75);
+	width:50%;
+	border-style: solid;
+	border-width:thin;
+	text-align:justify;
+	background-image:url(images/k3.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+#caja3 {
+	background-color:rgba(176,215,247,0.5);
+	width:75%;
+	border-style: dotted;
+	border-width:thin;
+	text-align:center;
+	background-image:url(images/k3.gif)
+	}
+	
+#caja4 {
+	background-image:url(images/k3.gif);
+	width:100%;
+	border-style: dashed;
+	border-width:thin;
+	text-align:left
+	}
+	
+#pie {
+	text-align:center;
+	background-color:rgb(99,120,122);
+	border-style: solid;
+	border-width:.25em;
+	border-color:#556975;
+	color:#fff;
+}
+.destacado 	{
+	background-color:#FFFFAD;
+	font-weight:bold;
+	font-style:italic;
+	font-family:verdana
+	}
+	
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	

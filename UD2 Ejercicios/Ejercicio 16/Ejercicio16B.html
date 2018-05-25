@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="es" lang="es">
+<head>
+	<title lang="es">Ejercicio 16 - B</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+</head>
+<body>
+<form method="post" action="mailto:argeme.vila@zabalburu.org" enctype="text/plain">
+<!-- Añadimos atributo tabindex a los elementos -->
+<h1>Formulario de Registro</h1>
+<table cellpadding="5"  width="100%">
+<tr>
+	<td style="width: 50%;">
+	Nombre: <input type="text" name="nombre" tabindex="1" /> 
+	</td>
+	<td rowspan="2" style="width: 50%;">
+	Sexo: <br />
+		<input 	type="radio" 
+				name="sexo" 
+				value="mujer" 
+				tabindex="8"/> Mujer <br />
+		<input 	type="radio" 
+				name="sexo" 
+				value="hombre" 
+				tabindex="9"/> Hombre
+	</td>
+</tr>
+<tr>
+	<td>
+	Primer Apellido: 
+	<input 	type="text" 
+			name="ape1" 
+			tabindex="2" /> 
+	</td>
+</tr>
+<tr>
+	<td>
+	Segundo Apellido: 
+	<input 	type="text" 
+			name="ape2" 
+			tabindex="3"/> 
+	</td>
+	<td rowspan="2">
+	Turno:  <br />
+		<input 	type="radio" 
+				name="turno" 
+				value="mañana" 
+				tabindex="10"/> Mañana  <br />
+		<input 	type="radio" 
+				name="turno" 
+				value="tarde" 
+				tabindex="11"/> Tarde
+	</td>
+</tr>
+<tr>
+	<td>
+	Dirección: 
+	<input 	type="text" 
+			name="dire" 
+			tabindex="4"/> 
+	</td>
+</tr>
+<tr>
+	<td>
+	CP: 
+	<input 	type="text" 
+			name="cp" 
+			size="3" 
+			maxlength="5" 
+			tabindex="5"/> 
+	</td>
+	<td rowspan="3">
+	Idiomas: <br />
+		<input 	type="checkbox" 
+				name="castellano" 
+				value="si" 
+				checked="checked" 
+				tabindex="12" /> Castellano <br />
+		<input 	type="checkbox" 
+				name="euskera" 
+				value="si" 
+				tabindex="13" /> Euskera <br />
+		<input 	type="checkbox" 
+				name="ingles" 
+				value="si" 
+				tabindex="14"/> Inglés
+	</td>
+</tr>	
+<tr>
+	<td>
+	Estudios: 
+	<select size="1" name="estudios" tabindex="6">
+	<option> --- Selecciona tus estudios en esta lista --- </option>
+	<optgroup label="Informática y Comunicaciones">
+		<option>Administración de Sistemas Informáticos en Red</option>
+		<option>Desarrollo de Aplicaciones Informáticas</option>
+		<option>Sistemas de Telecomunicación e Informáticos</option>
+	</optgroup>
+	<optgroup label="Comercio y Administración">
+		<option>Gestión del Transporte</option>
+		<option>Administración y Finanzas</option>
+	</optgroup>
+	<optgroup label="Laboratorios">
+		<option>Laboratorio de Análisis y Control de Calidad</option>
+		<option>Laboratorio de Diagnóstico Clínico</option>
+	</optgroup>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td>
+	Comentarios: <br />
+	<textarea name="comentarios" rows="10" cols="40" tabindex="7">Escribe aquí tus comentarios</textarea>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" align="center">
+	<input type="submit" value="Enviar Datos" tabindex="15" /> 
+	<input type="reset" value="Limpiar" tabindex="16"/>
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

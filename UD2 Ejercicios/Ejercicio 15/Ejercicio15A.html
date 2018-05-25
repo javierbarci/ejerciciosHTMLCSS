@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="es" lang="es">
+<head>
+<title lang="es">Ejercicio 15 - A</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+</head>
+<body>
+<h1>Ejemplo &lt;fieldset&gt; y &lt;label&gt;</h1>
+<form 	action="mailto:argeme.vila@zabalburu.org?subject=Ejercicio15A" 
+		method="post" 
+		enctype="text/plain">
+ <fieldset>
+  <legend>Información personal</legend>
+	<label for="nombre">Nombre: </label>
+	<input type="text" name="nombre" id="nombre" />
+	<label>Apellido: <input type="text" name="ape1"/></label>
+	<input type="checkbox" name="soltero" value="si" id="estado"/> 
+	<label for="estado"> Soltero</label>
+ </fieldset>
+ <fieldset>
+  <legend>Información académica</legend>
+		<label>Universidad: 
+		<input type="text" name="uni" /></label>
+		
+		<label>
+		<input type="checkbox" name="titulo" value="si"/>
+		Título obtenido</label>
+		
+		<p>Idiomas:<br />
+		<label><input type="checkbox" name="euskera" value="si" /> Euskera</label><br />
+		<input type="checkbox" name="ingles" value="si" id="english"/> 
+		<label for="english">Inglés</label><br />
+		<label><input type="checkbox" name="otros" value="si" /> Otros</label>
+		</p>
+ </fieldset>
+ <fieldset>
+	<input type="submit" value="Enviar correo" />
+	<input type="reset" value="Nuevo registro" />
+ </fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

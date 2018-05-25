@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="es" lang="es">
+<head>
+<title lang="es">Ejercicio 16 - A</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+</head>
+<body>
+<form action="" method="post" enctype="multipart/form-data"> <!-- Necesario por el input type='file' para que funcione el envío de fichero -->
+	<h2>Ejemplo uso de atributos <em>accesskey</em> y <em>tabindex</em> y del botón de transferencia de archivos</h2> 
+	<p>
+	Nombre <em>(Alt + Shift + n)</em>: <br />
+	<input 	type="text" 
+			name="nombre" 
+			tabindex="1" 
+			accesskey="n" 
+			maxlength="25" />
+	</p>
+	<p>
+	Apellidos <em>(Alt + Shift + a)</em>: <br />
+	<input 	type="text" 
+			name="apellidos" 
+			tabindex="2" 
+			accesskey="a" 
+			maxlength="25" />
+	</p>
+	<p>
+	Dirección <em>(Alt + Shift + i)</em>: <br />
+	<input 	type="text" 
+			name="direccion" 
+			tabindex="3" 
+			accesskey="i" 
+			maxlength="25" />
+	</p>
+	<p>
+	Código Postal <em>(Alt + Shift + c)</em>: <br />
+	<input 	type="text" 
+			name="cp" 
+			tabindex="4" 
+			accesskey="c" 
+			maxlength="5" 
+			size="5" />
+	</p>
+	<p>
+	Ciudad <em>(Alt + Shift + u)</em>: <br />
+	<input 	type="text" 
+			name="ciudad" 
+			tabindex="5" 
+			accesskey="u" 
+			maxlength="25" />
+	</p>
+	<p>
+	Comentarios <em>(Alt + Shift + o)</em>: <br />
+	<textarea 	name="comentarios" 
+				tabindex="6" 
+				accesskey="o" 
+				cols="25" 
+				rows="8" ></textarea>
+	</p>
+	<p>
+	Archivo <em>(Alt + Shift + v)</em>: <br />
+	<input 	type="file" 
+			name="archivo" 	
+			accept="image/*" 
+			tabindex="7"  
+			accesskey="v"/>
+	</p>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+

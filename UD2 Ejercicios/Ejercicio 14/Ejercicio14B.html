@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="es" lang="es">
+<head>
+	<title lang="es">Ejercicio 14 - B</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+</head>
+<body>
+<form 	method="post" 
+		action="mailto:argeme.vila@zabalburu.org" 
+		enctype="text/plain">
+<h1>Formulario de Registro</h1>
+<table cellpadding="5"  width="100%" border="1">
+<tr>
+	<td style="width: 50%;">
+	Nombre: <input type="text" name="nombre" /> 
+	</td>
+	<td rowspan="2" style="width: 50%;">
+	Sexo: <br />
+		<input 	type="radio" 
+				name="sexo" 
+				value="mujer" /> Mujer <br />
+		<input 	type="radio" 
+				name="sexo" 
+				value="hombre" /> Hombre
+	</td>
+</tr>
+
+<tr>
+	<td>
+	Primer Apellido: <input type="text" name="ape1" /> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+	Segundo Apellido: <input type="text" name="ape2" /> 
+	</td>
+	<td rowspan="2">
+	Turno:  <br />
+		<input 	type="radio" 
+				name="turno" 
+				value="mañana" /> Mañana  <br />
+		<input 	type="radio" 
+				name="turno" 
+				value="tarde" /> Tarde
+	</td>
+</tr>
+
+<tr>
+	<td>
+	Dirección: <input type="text" name="dire" /> 
+	</td>
+</tr>
+
+<tr>
+	<td>
+	CP: <input type="text" name="cp" size="3" maxlength="5" /> 
+	</td>
+	<td rowspan="3">
+	Idiomas: <br />
+		<input 	type="checkbox" 
+				name="euskera" 
+				value="si" 
+				checked="checked" /> Euskera <br />
+		<input 	type="checkbox" 
+				name="ingles" 
+				value="si" /> Inglés <br />
+		<input 	type="checkbox" 
+				name="aleman" 
+				value="si" /> Alemán
+	</td>
+</tr>
+	
+<tr>
+	<td>
+	Estudios: 
+	<select size="1" name="estudios">
+	<option> --- Selecciona tus estudios en esta lista --- </option>
+	<optgroup label="Informática y Comunicaciones">
+		<option value="ASIR">Administración de Sistemas Informáticos en Red</option>
+		<option value="DAI">Desarrollo de Aplicaciones Informáticas</option>
+		<option value="STI">Sistemas de Telecomunicación e Informáticos</option>
+	</optgroup>
+	<optgroup label="Comercio y Administración">
+		<option value="GT">Gestión del Transporte</option>
+		<option value="AF">Administración y Finanzas</option>
+	</optgroup>
+	<optgroup label="Laboratorios">
+		<option value="LACC">Laboratorio de Análisis y Control de Calidad</option>
+		<option value="LDC">Laboratorio de Diagnóstico Clínico</option>
+	</optgroup>
+	</select>
+	</td>
+</tr>
+
+<tr>
+	<td>
+	Comentarios: <br /><textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+		<input type="submit" value="Enviar Datos" /> 
+		<input type="reset" value="Limpiar" />
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+

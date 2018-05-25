@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Ejemplo -->
+<listadeproductos>
+    <producto>
+        <nombre>Galletas integrales</nombre>
+        <codigo>8402973812000</codigo>
+        <precio>6.45</precio>
+        <tipo es-dietetico="si" />
+		<fecha_caducidad>
+			<dia>02</dia>
+			<mes>04</mes>
+			<anio>2014</anio>
+		</fecha_caducidad>
+    </producto>
+    <producto>
+        <nombre>Cereales con chocolate</nombre>
+        <codigo>6482947100032</codigo>
+        <precio>3.95</precio>
+        <preciooferta>2.75</preciooferta>
+		<tipo es-dietetico="no" />
+		<fecha_caducidad>
+			<dia>04</dia>
+			<mes>12</mes>
+			<anio>2014</anio>
+		</fecha_caducidad>
+    </producto>
+</listadeproductos>

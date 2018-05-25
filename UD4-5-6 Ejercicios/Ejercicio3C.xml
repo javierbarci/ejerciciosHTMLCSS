@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE listin  [
+	<!ELEMENT listin (persona+)>
+	<!ELEMENT persona (nombre, email*, relacion?)>
+		<!ATTLIST persona id ID #REQUIRED>
+		<!ATTLIST persona sexo (hombre|mujer) #IMPLIED>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT relacion EMPTY>
+		<!ATTLIST relacion amigo_de IDREFS #IMPLIED>
+]>
+<listin>
+	<persona id="pepe01" sexo="hombre">
+		<nombre>Pepe</nombre>
+		<email>peperuiz@gmail.com</email>
+		<email>pepe@gmail.com</email>
+	</persona>
+	<persona id="juan01" sexo="hombre">
+		<nombre>Juan</nombre>
+		<relacion amigo_de="pepe01"/>
+	</persona>
+	<persona id="ana01" sexo="mujer">
+		<nombre>Ana</nombre>
+		<email>anasanz@gmail.com</email>
+		<email>ana@gmail.com</email>
+		<email>anas@gmail.com</email>
+		<relacion amigo_de="pepe01 juan01"/>
+	</persona>
+	<persona id="eva01">
+		<nombre>Eva</nombre>
+	</persona>
+</listin>
+
+
+
+
+
+
+
+
+

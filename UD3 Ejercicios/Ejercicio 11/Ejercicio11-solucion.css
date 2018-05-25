@@ -1,0 +1,180 @@
+h1 {
+	font-family:arial; 
+	font-size: 18px; 
+	font-variant:small-caps; 
+	font-weight:bolder; 
+	color:#556975;
+	text-decoration:overline;
+	letter-spacing:5px;
+	text-align:center;
+	margin-bottom:50px
+	}	
+	
+h2 {font-family:arial;color:#556975;}
+
+body {
+	background-image:url(images/lorem1.jpg)
+}
+/** Definimos contenedor para centrar el contenido horizontalmente con width y margin
+el min-width para que no se desplacen las cajas si se estrecha mucho la ventana **/
+#contenedor {
+	width:70%;
+	margin:100px auto;
+	min-width:850px;
+	background-color: rgba(255,255,255,0.95);
+	padding:100px;
+}
+
+/* Bloque del menú de etiquetas para visualizar las 4 páginas*/
+#menu {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-weight: thin;
+	letter-spacing:3px;
+	}
+/* Características de cada uno de los elementos de clase botonmenu que sean enlaces dentro del bloque identificado como menu*/
+#menu  a.botonMenu {
+	background-color:rgb(198,193,175) ; 
+	color: white;
+	cursor: pointer;
+	padding: 8px 10px 6px 9px;
+	text-decoration: none;
+	margin-right:8px
+	}
+/* Características del elemento de clase activobotonmenu que sea un enlace dentro del bloque identificado como menu*/
+#menu  a.activobotonMenu {
+	color: white;
+	cursor: pointer;
+	padding: 8px 10px 6px 9px;
+	text-decoration: none;
+	margin-right:8px;
+	background-color:#0E7C9B ; 
+	border-style:solid
+	}
+/* Cuando el cursor del ratón se encuentre posicionado sobre el elemento de clase botonmenu que sea un enlace dentro del bloque identificado como menu*/	
+#menu   a.botonMenu:hover {
+	background-color: #D2DFE8;
+	}
+/* Cuando el cursor del ratón esté pinchando sobre el elemento de clase botonmenu que sea un enlace dentro del bloque identificado como menu*/
+#menu   a.botonMenu:active {
+	background-color: #FFF;
+	color: black;
+}
+/* Margen externo superior de las lineas (para acercarla a las etiquetas del menú)*/
+hr {
+	margin-top:3px;
+	}
+
+/* Características del elemento identificado como caja_izq (flotante a la izquierda) */ 
+#caja_izq {
+	background-color:#FFFFDD;
+	width:25%;
+	border-style: solid;
+	border-width:thin;
+	text-align:center;
+	margin-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left
+	}
+/* Características del elemento identificado como caja_dcha (flotante a la izquierda también) */ 
+#caja_dcha {
+	width:65%;
+	border-style: solid;
+	border-width:thin;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:15px;
+	margin-bottom:5px;
+	float:left
+	}
+
+/* Características del elemento identificado como caja_dcha_especial (flotante a la izquierda y con tamaño determinado cuyo contenido debe visualizarse por scroll con barra de desplazamiento en caso de que rebase el tamaño definido para la caja)*/
+#caja_dcha_especial {
+	border-style: solid;
+	border-width:thin;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:25px;
+	margin-left:15px;
+	margin-bottom:5px;
+	float:left;
+	width:65%;
+	height:850px;
+	overflow:scroll; /*Si el contenido no entra en el tamaño definido aparece la barra de desplazamiento para poder hacer scroll */
+}
+
+/** un pie abajo que no debe quedar pegado a los float anteriores --> clear:both**/
+#pie {
+	text-align:center;
+	background-color:rgb(198,193,175);  
+	clear:both;
+	border-style: solid;
+	border-width:thin;
+	padding:20px;
+	font-family:Arial;
+	color: white;
+	letter-spacing:2px;
+	font-size:0.75em;
+}
+
+/* elementos con atributo class destacado*/
+.destacado 	{
+	background-color:#FFFFAD;
+	font-weight:bold
+	}
+	
+  /* Para Opción 3: Características del elemento identificado como cajaimgs*/
+  #cajaimgs {
+		border:2px solid black;
+		padding:50px;
+		text-align:center;
+		margin-bottom:10px}
+  /* Para Opción 3: Características del elemento identificado como imgtrans */
+  .imgtrans {
+		width:100px;
+		height:100px;
+		opacity:0.4; /* Para Firefox y CSS3, una opacidad entre 0 (transparente) y 1 (opaco) de 0.4 (también explorer) */
+		filter:alpha(opacity=40); /* Antes: para Explorer, una opacidad entre 0 (transparente) y 100 (opaco) de 40 */
+  }
+  
+  /* Para Opción 3: Características del elemento identificado como imgtrans cuando el ratón esté posicionado sobre ese elemento*/
+  .imgtrans:hover {
+		opacity:0.9;
+		filter:alpha(opacity=90);
+		cursor:pointer
+  }
+  
+/* Para Opción 4: Los bloques div de clase background */
+div.background  {
+		width:500px;
+		height:250px;
+		margin-top:0;
+		margin-bottom:50px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(images/bg1.jpg) repeat;
+		border:2px solid black;
+  }
+
+/* Para Opción 4: Los bloques div de clase transbox */
+div.transbox   {
+		width:400px;
+		height:180px;
+		margin:30px 50px;
+		background-color:#fff;
+		border:1px solid black;
+		/* CSS3 standard */
+		opacity:0.5;
+		/* IE */
+		filter:alpha(opacity=50);
+  }
+  
+/* Para Opción 4: Los párrafos incluidos en un bloque div de clase transbox */
+div.transbox p
+  {
+  margin:30px 40px;
+  font-weight:bold;
+  color:#000;
+  }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Ejercicio 1D-2 -->
+<listado_camisetas>
+	<camiseta>
+		<referencia>173</referencia>
+		<marca>micamiseta</marca>
+		<color>Blanco</color>
+		<talla>M</talla>
+		<precio moneda="euro">10</precio>		
+	</camiseta>
+	<camiseta>
+		<referencia>185</referencia>
+		<marca>tucamiseta</marca>
+		<color>Azul</color>
+		<talla>L</talla>
+		<precio moneda="euro">12</precio>		
+	</camiseta>
+</listado_camisetas>

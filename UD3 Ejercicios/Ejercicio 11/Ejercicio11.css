@@ -1,0 +1,179 @@
+h1 {
+	font-family:arial; 
+	font-size: 18px; 
+	font-variant:small-caps; 
+	font-weight:bolder; 
+	color:#556975;
+	text-decoration:overline;
+	letter-spacing:5px;
+	text-align:center;
+	margin-bottom:50px
+	}	
+	
+h2 {font-family:arial;color:#556975;}
+
+body {
+	background-image:url(images/lorem1.jpg)
+}	
+
+#contenedor {
+	width:70%;
+	margin:100px auto;
+	min-width:850px;
+	background-color: rgba(255,255,255,0.95);
+	padding:100px;
+}
+
+
+#menu {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-weight: thin;
+	letter-spacing:3px;
+	
+	}
+
+#menu  a.botonMenu {
+	background-color:rgb(198,193,175) ;  
+	color: white;
+	cursor: pointer;
+	padding: 8px 10px 6px 9px;
+	text-decoration: none;
+	margin-right:8px
+	}
+
+#menu  a.activobotonMenu {
+	color: white;
+	cursor: pointer;
+	padding: 8px 10px 6px 9px;
+	text-decoration: none;
+	margin-right:8px;
+	background-color:#0E7C9B ;  
+	border-style:solid
+	}
+	
+#menu   a.botonMenu:hover {
+	background-color: #D2DFE8;
+	}
+
+#menu   a.botonMenu:active {
+	background-color: #FFF;
+	color: black;
+}
+
+hr {
+	margin-top:3px;
+	}
+
+
+#caja_izq {
+	background-color:#FFFFDD;
+	width:25%;
+	border-style: solid;
+	border-width:thin;
+	text-align:center;
+	margin-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	float:left
+	}
+
+#caja_dcha {
+	width:65%;
+	border-style: solid;
+	border-width:thin;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:15px;
+	margin-bottom:5px;
+	float:left
+	}
+
+
+#caja_dcha_especial {
+	border-style: solid;
+	border-width:thin;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:25px;
+	margin-left:15px;
+	margin-bottom:5px;
+	float:left;
+	width:65%;
+	height:850px;
+	overflow:scroll;
+}
+
+
+#pie {
+	text-align:center;
+	background-color:rgb(198,193,175);  
+	clear:both;
+	border-style: solid;
+	border-width:thin;
+	padding:20px;
+	font-family:Arial;
+	color: white;
+	letter-spacing:2px;
+	font-size:0.75em;
+}
+
+.destacado 	{
+	background-color:#FFFFAD;
+	font-weight:bold
+	}
+	
+
+#cajaimgs {
+		border:2px solid black;
+		padding:50px;
+		text-align:center;
+		margin-bottom:10px}
+
+.imgtrans {
+		width:100px;
+		height:100px;
+		opacity:0.4; /* Para Firefox y CSS3, una opacidad entre 0 (transparente) y 1 (opaco) de 0.4 (también explorer) */
+		filter:alpha(opacity=40); /* Antes: para Explorer, una opacidad entre 0 (transparente) y 100 (opaco) de 40 */
+  }
+  
+
+.imgtrans:hover {
+		opacity:0.9;
+		filter:alpha(opacity=90);
+		cursor:pointer
+  }
+  
+
+div.background  {
+		width:500px;
+		height:250px;
+		margin-top:0;
+		margin-bottom:50px;
+		margin-left:auto;
+		margin-right:auto;
+		background:url(images/bg1.jpg) repeat;
+		border:2px solid black;
+  }
+
+
+div.transbox   {
+		width:400px;
+		height:180px;
+		margin:30px 50px;
+		background-color:#fff;
+		border:1px solid black;
+		/* CSS3 standard */
+		opacity:0.5;
+		/* IE */
+		filter:alpha(opacity=50);
+  }
+  
+
+div.transbox p
+  {
+  margin:30px 40px;
+  font-weight:bold;
+  color:#000;
+  }

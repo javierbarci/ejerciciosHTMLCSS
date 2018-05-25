@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Ejercicio 1B-6 -->
+<ejercicios>
+    <problema>
+        <enunciado>
+			Si Juan nace en 2001, Pedro en 2002 y Antonio en 2003, pensando en su edad, di si es cierto que Antonio es &lt; que Pedro y si Juan es &gt; que Pedro
+		</enunciado>
+        <solucion>
+			Antonio es &lt; que Pedro es cierto y Juan es &gt; que Pedro es cierto.
+		</solucion>
+    </problema>
+    
+</ejercicios>
